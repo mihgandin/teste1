@@ -5,7 +5,6 @@ def print_pause(message, delay=1):
     """Função para imprimir mensagens com pausa."""
     print(message)
     time.sleep(delay)
-
 def start_game():
     """Função principal do jogo."""
     print_pause("Bem-vindo ao jogo 'Escape da Matrix'!")
